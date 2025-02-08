@@ -8140,8 +8140,8 @@ figcaption {
   .nav-menu {
     width: auto;
     height: 80vh;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 15%;
   }
   .floating-block {
