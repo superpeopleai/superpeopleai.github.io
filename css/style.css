@@ -4368,7 +4368,7 @@ figcaption {
 .slide-5 {
   box-sizing: border-box;
   background-image: url("../contents/background-3.png");
-  background-position: 50% 66%;
+  /* background-position: 50% 66%;*/
   background-size: cover;
   margin-bottom: 0;
 }
@@ -7941,6 +7941,7 @@ figcaption {
   }
 
   .slide-5 {
+	  background-image: url("../contents/background-3.png");
     background-position: 50%;
     background-size: cover;
   }
@@ -9070,9 +9071,7 @@ figcaption {
     grid-template-columns: auto;
   }
 
-  .div-block-9 {
-    padding-top: 20px;
-  }
+
 
   .project-footer-block {
     padding-top: 40px;
@@ -9282,9 +9281,9 @@ figcaption {
   }
 
   .slider-5 {
-    height: 80vh;
+    /*height: 80vh;
     margin-top: 20px;
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px; */
   }
 	
  .slider-6 {
@@ -9294,8 +9293,9 @@ figcaption {
   }
 
   .slide-5 {
+	  
     background-position: 50% -182%;
-    background-size: contain;
+    /* background-size: contain;*/
   }
 
   .tech-block.no-margins {
@@ -9441,7 +9441,7 @@ figcaption {
 
   .graph.dicsuss {
     padding-top: 10px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 
   .single-cta {
@@ -9691,6 +9691,10 @@ figcaption {
   h2 {
     font-size: 36px;
     line-height: 48px;
+  }
+	
+	  .div-block-9 {
+    padding: 20px;
   }
 
   .cta-button.button-nav.hide-desktop {
@@ -11424,12 +11428,12 @@ figcaption {
   }
 
   .slider-image-holder {
-    background-image: url("../contents/slide-photo_2.webp"); 
+    background-image: url("../contents/background-3.png"); 
     background-position: 50%;
     background-size: cover;
     flex: 1;
     width: 100%;
-    height: 45%;
+    height: 100%;
     display: block;
   }
 
