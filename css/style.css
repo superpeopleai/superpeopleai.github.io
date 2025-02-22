@@ -3401,7 +3401,7 @@ figcaption {
 }
 .header-holder.hp {
   background-image: url("../contents/hero-1.png");
-  background-position: 0%;
+  background-position: 50%;
   background-repeat: repeat-x;
   background-size: cover;
   justify-content: flex-start;
@@ -3489,13 +3489,13 @@ figcaption {
   margin-left: 0;
 }
 .heading-17 {
-  padding: 40px 40px 20px 30px;
+  padding: 40px 40px 20px 40px;
 }
 .link-block-3 {
   text-transform: uppercase;
   width: 100%;
   margin-bottom: 0;
-  padding-top: 0;
+  padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
   text-decoration: none;
@@ -3503,6 +3503,7 @@ figcaption {
 .link-block-3.extra-space {
   padding-top: 20px;
   padding-bottom: 40px;
+  position: relative;
 }
 .more-details-h {
   letter-spacing: 1px;
@@ -3672,7 +3673,7 @@ figcaption {
 .slide-5 {
   box-sizing: border-box;
   background-image: url("../contents/background-3.png");
-  /* background-position: 50% 66%;*/
+  background-position: 50%;
   background-size: cover;
   margin-bottom: 0;
 }
@@ -4345,7 +4346,7 @@ figcaption {
   order: 0;
   justify-content: space-around;
   align-items: stretch;
-  padding: 20px;
+  padding: 20px 0px 0px 20px;
   display: flex;
 }
 .yellow-banner {
@@ -6321,8 +6322,8 @@ figcaption {
     margin-bottom: 0;
   }
   .floating-block-copy {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .main-holder {
     margin-top: 30px;
@@ -6633,7 +6634,7 @@ figcaption {
     margin-right: 40px;
   }
   .link-block-3, .link-block-3.extra-space {
-    padding-left: 30px;
+    padding-left: 20px;
   }
   .more-details-h {
     margin-top: 0;
@@ -7482,7 +7483,7 @@ figcaption {
   .floating-block-copy {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .floating-block-copy.minus-ten {
     margin-left: 20px;
@@ -7713,7 +7714,7 @@ figcaption {
   .heading-17 {
     padding-left: 20px;
   }
-  .link-block-3 {
+  2 {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
