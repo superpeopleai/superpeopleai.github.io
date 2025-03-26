@@ -3349,8 +3349,12 @@ figcaption {
   padding-left: 55px;
 }
 .job-details-paragraph {
-  padding: 40px 55px;
+  padding: 40px 40px;
 }
+
+.job-details-list {
+  padding: 20px 40px;
+} 
 .div-break {
   background-color: var(--superpeople-beige);
   width: 100%;
@@ -6599,6 +6603,10 @@ figcaption {
     padding-left: 25px;
     padding-right: 25px;
   }
+  .job-details-list {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
   .header-holder.solution {
     padding-top: 200px;
   }
@@ -8684,6 +8692,10 @@ figcaption {
   .job-details-paragraph {
     padding-top: 20px;
   }
+	
+ .job-details-lost {
+    padding-top: 10px;
+  } 
   .div-break {
     height: 20px;
   }
