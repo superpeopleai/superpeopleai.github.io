@@ -1402,7 +1402,7 @@ textarea.w-input, textarea.w-select {
   inset: 0;
 }
 .w-richtext figure {
-  max-width: 60%;
+  max-width: 100%;
   position: relative;
 }
 .w-richtext figure > div:before {
@@ -1429,7 +1429,7 @@ textarea.w-input, textarea.w-select {
   display: table-caption;
 }
 .w-richtext figure.w-richtext-figure-type-video, .w-richtext figure[data-rt-type="video"] {
-  width: 60%; 
+  width: 100%; 
   height: 0;
 }
 .w-richtext figure.w-richtext-figure-type-video iframe, .w-richtext figure[data-rt-type="video"] iframe {
@@ -1443,7 +1443,7 @@ textarea.w-input, textarea.w-select {
   width: 100%;
 }
 .w-richtext figure.w-richtext-align-center {
-  /* clear: both; */
+  clear: both;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2426,7 +2426,7 @@ figcaption {
   padding-bottom: 0;
 }
 .image-seven-five {
-  background-image: url("../contents/seven-five.webp");
+
   background-position: 0 0;
   background-size: cover;
   flex: none;
@@ -2767,23 +2767,23 @@ figcaption {
 }
 .right-top-right {
   border-right: 2px solid var(--superpeople-denim);
-  background-image: url("../contents/feedstock.webp");
+
   background-position: 50%;
   background-size: cover;
   width: 50%;
 }
 .right-top-right.first-tr {
-  background-image: url("../contents/2119x1534.webp");
+
   background-position: 38%;
   background-size: cover;
 }
 .right-top-right.tr1 {
-  background-image: url("../contents/2119x1534.webp");
+
   background-position: 50%;
   background-size: cover;
 }
 .right-top-left {
-  background-image: url("../contents/431x435.webp");
+
   background-position: 50%;
   background-size: cover;
   width: 50%;
@@ -2791,19 +2791,19 @@ figcaption {
 }
 .right-top-left.first-tl {
   background-color: var(--superpeople-stone);
-  background-image: url("../contents/2181x1325.webp");
+
   background-position: 50%;
   background-size: cover;
 }
 .right-top-left.second-tl {
   background-color: var(--superpeople-sea);
-  background-image: url("../contents/675x380.webp");
+
   background-position: 50%;
   background-size: cover;
 }
 .right-top-left.third-tl {
   background-color: var(--superpeople-natural);
-  background-image: url("../contents/3040x1915.webp");
+
   background-position: 50%;
   background-size: cover;
 }
@@ -3027,7 +3027,7 @@ figcaption {
   background-color: #d9dfdf;
 }
 .people-collection-photo {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   border-radius: 500px;
@@ -3297,7 +3297,7 @@ figcaption {
   top: 0;
 }
 .meet-the-team {
-  background-image: url("../contents/background-2.png");
+
   background-position: 50%;
   background-size: cover;
   justify-content: flex-end;
@@ -3395,7 +3395,7 @@ figcaption {
   padding-top: 60px;
 }
 .header-holder.about-us {
-  background-image: url("../contents/background-4.png");
+
   background-position: 50%;
   background-size: cover;
   align-items: flex-end;
@@ -3405,7 +3405,7 @@ figcaption {
   display: flex;
 }
 .header-holder.hp {
-  background-image: url("../contents/hero-1.png");
+
   background-position: 50%;
   background-repeat: repeat-x;
   background-size: cover;
@@ -3416,7 +3416,7 @@ figcaption {
   display: flex;
 }
 .header-holder.tech {
-  background-image: url("../contents/header-contact.webp");
+
   background-position: 50%;
   background-size: cover;
   align-items: flex-end;
@@ -3425,7 +3425,7 @@ figcaption {
   display: flex;
 }
 .header-holder.contact {
-  background-image: url("../contents/background-3.png");
+
   background-position: 50%;
   background-size: cover;
   justify-content: flex-start;
@@ -3436,7 +3436,7 @@ figcaption {
   display: flex;
 }
 .header-holder.article {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50% 14%;
   background-size: cover;
   justify-content: flex-start;
@@ -3458,7 +3458,7 @@ figcaption {
 }
 .hp-tech-copy {
   background-color: var(--superpeople-greenish);
-  background-image: url("../contents/871x680.webp");
+
   background-position: 50% 0;
   background-size: cover;
   justify-content: space-between;
@@ -3471,7 +3471,7 @@ figcaption {
   display: flex;
 }
 .hp-tech-copy.spread {
-  background-image: url("../contents/778x618.webp");
+
   background-position: 0 0;
   background-size: cover;
   height: 100%;
@@ -3639,7 +3639,7 @@ figcaption {
   display: flex;
 }
 .article-image {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 4%;
   background-size: cover;
   flex: 0 auto;
@@ -3677,7 +3677,7 @@ figcaption {
 }
 .slide-5 {
   box-sizing: border-box;
-  background-image: url("../contents/background-3.png");
+
   background-position: 50%;
   background-size: cover;
   margin-bottom: 0;
@@ -3693,7 +3693,7 @@ figcaption {
   top: -45px;
 }
 .slide-6 {
-  background-image: url("../contents/hero-1.png");
+
   background-position: 50%;
   background-size: cover;
 }
@@ -3836,8 +3836,8 @@ figcaption {
   text-decoration: underline;
 }
 .blog-article.copy {
-  margin-bottom: 100px;
-  padding-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 40px;
 }
 .blog-article blockquote {
   border-left-color: var(--superpeople-greenish);
@@ -3970,7 +3970,7 @@ figcaption {
   padding-left: 30px;
 }
 .author-pic {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   border-radius: 113px;
@@ -4085,7 +4085,7 @@ figcaption {
   display: flex;
 }
 .recommendation-image {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   width: 100%;
@@ -4127,7 +4127,7 @@ figcaption {
   flex: 1;
 }
 .hero-blog-article {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   justify-content: flex-end;
@@ -4175,7 +4175,7 @@ figcaption {
   order: -1;
 }
 .featured-image {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   width: 100%;
@@ -4218,7 +4218,7 @@ figcaption {
   padding-bottom: 40px;
 }
 .single-post-image {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   height: 300px;
@@ -4372,7 +4372,7 @@ figcaption {
 .business-team-pics {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   border-radius: 122px;
@@ -4428,7 +4428,7 @@ figcaption {
   padding-top: 100px;
 }
 .faq-answer-image {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50% 100%;
   background-size: cover;
   width: 50%;
@@ -4883,7 +4883,7 @@ figcaption {
   display: flex;
 }
 .person-photo-1 {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 53%;
   background-size: cover;
   flex: 1;
@@ -4905,7 +4905,7 @@ figcaption {
   padding: 20px 30px;
 }
 .image-person-main {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   order: 0;
@@ -4943,7 +4943,7 @@ figcaption {
   display: flex;
 }
 .gradient {
-  background-image: url("../contents/image-preview.png");
+
   background-position: 50%;
   background-size: cover;
   width: 100vw;
@@ -5282,7 +5282,7 @@ figcaption {
   overflow: hidden;
 }
 ._404-image-cover {
-  background-image: url("../contents/feedstock.webp");
+
   background-position: 50% 24%;
   background-size: cover;
   width: 100%;
@@ -5307,7 +5307,7 @@ figcaption {
 }
 .div-block-26 {
   background-color: var(--superpeople-sky);
-  background-image: url("../contents/feedstock.webp");
+
   background-position: 50% 26%;
   background-size: cover;
   width: 100%;
@@ -5439,7 +5439,7 @@ figcaption {
   width: 50%;
 }
 .press-image {
-  background-image: url("../contents/header-contact.webp");
+
   background-position: 50% 100%;
   background-size: cover;
   height: 430px;
@@ -5542,7 +5542,7 @@ figcaption {
   display: flex;
 }
 .div-block-27 {
-  background-image: url("../contents/reactor.webp");
+
   background-position: 50% 0;
   background-size: cover;
   width: 60%;
@@ -6006,7 +6006,7 @@ figcaption {
   display: none;
 }
 .slide-photo {
-  background-image: url("../contents/slide-photo_1.webp");
+
   background-position: 50% 100%;
   background-size: cover;
   order: -1;
@@ -6014,28 +6014,28 @@ figcaption {
   height: 100%;
 }
 .slide-photo.slide-1-pic {
-  background-image: url("../contents/slide-photo_1.webp");
+
   background-position: 50% 100%;
   background-size: cover;
 }
 .slide-photo.slide-3-pic {
-  background-image: url("../contents/slide-photo_2.webp");
+
   background-position: 50%;
   background-size: cover;
 }
 .map-image {
   aspect-ratio: 3 / 2;
-  background-image: url("../assets/map.svg");
+
   background-position: 50%;
   background-size: cover;
 }
 .map-image.rd-center {
-  background-image: url("../assets/map.svg");
+
   background-position: 50%;
   background-size: cover;
 }
 .map-image.hq {
-  background-image: url("../assets/map.svg");
+
   background-position: 50%;
   background-size: cover;
 }
@@ -6140,8 +6140,8 @@ figcaption {
   }
   .solution-point.discuss-project {
     padding-top: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .cta-button {
     display: block;
@@ -6491,7 +6491,7 @@ figcaption {
     background-position: 67%;
   }
   .slide-2 {
-    background-position: 69%;
+    background-position: 50%;
   }
   .slide-3 {
     background-position: 0%;
@@ -6621,7 +6621,7 @@ figcaption {
     background-repeat: repeat-x;
   }
   .header-holder.article {
-    background-image: url("../contents/background-image.svg");
+
     background-position: 50%;
     background-size: cover;
     padding-left: 20px;
@@ -6693,7 +6693,7 @@ figcaption {
     /* margin-bottom: 40px; */
   }
   .slide-5 {
-    background-image: url("../contents/background-3.png");
+
     background-position: 50%;
     background-size: cover;
   }
@@ -6858,8 +6858,8 @@ figcaption {
   }
   .columns-wrapper {
     flex-flow: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .yellow-banner {
     margin-bottom: 40px;
@@ -7074,7 +7074,7 @@ figcaption {
     margin-top: 10px;
   }
   .icon {
-    background-image: url("../contents/background-image.svg");
+
     background-position: 0 0;
     background-size: auto;
     display: none;
@@ -8052,7 +8052,7 @@ figcaption {
     width: 100%;
   }
   .mobile-tech-image {
-    background-image: url("../contents/778x618.webp");
+
     background-position: 50% 29%;
     background-size: cover;
     flex: 1;
@@ -8128,8 +8128,8 @@ figcaption {
   }
   .navbar {
     margin-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .nav-link.with-line-left.align-left {
     margin-left: 0;
@@ -8150,8 +8150,8 @@ figcaption {
   .nav-menu {
     width: auto;
     height: 80vh;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-top: 15%;
   }
   .floating-block {
@@ -8740,13 +8740,13 @@ figcaption {
     padding-right: 10px;
   }
   .header-holder.contact {
-    background-position: 69%;
+    background-position: 50%;
     height: 100vh;
     padding-left: 10px;
     padding-right: 10px;
   }
   .header-holder.article {
-    background-image: url("../contents/image-preview.png");
+
     background-position: 50%;
     background-size: cover;
     height: auto;
@@ -9523,7 +9523,7 @@ figcaption {
     margin-top: 0;
   }
   .slider-image-holder {
-    background-image: url("../contents/background-3.png");
+
     background-position: 50%;
     background-size: cover;
     flex: 1;
@@ -9545,7 +9545,7 @@ figcaption {
     padding-right: 10px;
   }
   .mobile-tech-image {
-    background-image: url("../contents/778x618.webp");
+
     background-position: 100%;
     background-size: cover;
     border: 1px #000;
@@ -9617,12 +9617,12 @@ figcaption {
     min-height: 500px;
   }
   .slide-photo.slide-1-pic {
-    background-image: url("../contents/slide-photo_1.webp");
+
     background-position: 50% 100%;
     background-size: cover;
   }
   .slide-photo.slide-3-pic {
-    background-image: url("../contents/slide-photo_3.webp");
+
     background-position: 50% 100%;
     background-size: cover;
   }
