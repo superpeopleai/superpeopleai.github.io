@@ -751,6 +751,8 @@ textarea.w-input, textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+
+	
   .w-container {
     max-width: none;
   }
@@ -6128,7 +6130,7 @@ figcaption {
   }
   .slider-5 {
     height: 100vh;
-    margin: 60px 20px 0 20px;
+    margin: 60px 10px 0 10px;
   }
   .table-title.solution.discuss {
     padding-top: 10px;
@@ -8912,6 +8914,13 @@ figcaption {
     line-height: 110%;
     overflow: hidden;
   }
+	
+.blog-article {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+	
   .blog-article p {
     padding-right: 0;
   }
@@ -9241,8 +9250,8 @@ figcaption {
   }
   .yellow-banner.newsletter-banner {
     margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .grid-8 {
     grid-column-gap: 0px;
